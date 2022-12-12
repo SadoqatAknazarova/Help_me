@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c0r1"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c0r2"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c0r4"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c0r3"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="227dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c1r4"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c0r0"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c1r1"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c1r2"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c1r3"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="227dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c2r4"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c1r0"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c2r1"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="181dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c2r2"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c2r3"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="227dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c3r4"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="253dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c3r0"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            app:layout_constraintVertical_bias="0.5"
+            tools:layout_editor_absoluteX="263dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c2r0"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="181dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c3r1"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c3r2"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="253dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c3r3"
+            android:layout_width="71.75dp"
+            android:layout_height="72dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:backgroundTint="#4E505F"
+            android:text="C"
+            android:textSize="20dp"
+            app:cornerRadius="24dp"
+            tools:layout_editor_absoluteX="253dp"
+            tools:layout_editor_absoluteY="227dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
